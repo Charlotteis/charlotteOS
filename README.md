@@ -1,4 +1,4 @@
-# intermezzOS - A Hobby OS
+# charlotteOS - A Hobby OS
 
 A Hobby Operating System (OS) built with Assembly & [Rust](https://www.rust-lang.org).
 
