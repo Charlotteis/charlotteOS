@@ -1,0 +1,17 @@
+global start
+
+section .text
+bits 32
+start:
+  mov word [0xb8000], 0x0563  ; c
+  mov word [0xb8002], 0x0568  ; h
+  mov word [0xb8004], 0x0561  ; a
+  mov word [0xb8006], 0x0572  ; r
+  mov word [0xb8008], 0x056C  ; l
+  mov word [0xb800a], 0x056F  ; o
+  mov word [0xb800c], 0x0574  ; t
+  mov word [0xb800e], 0x0574  ; t
+  mov word [0xb8010], 0x0565  ; e
+  mov word [0xb8012], 0x054F  ; O
+  mov word [0xb8014], 0x0553  ; S
+  hlt
